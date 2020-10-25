@@ -1,5 +1,6 @@
 html, body,#home {
-    height: 100%
+    height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -70,12 +71,55 @@ nav.navbar-transparent {
     color: #000000;
 }
 
+.caixa {
+    padding: 20px 0px;
+}
+
+#servicos {
+    background: #fff;
+}
+
+#servicos h2, h3 {
+    color: #7c25f8;
+}
+
+#recursos {
+    color: #fff;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 5em;
+}
+
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: #fff;
     transition: 40ms;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /* extra small devices */
@@ -87,6 +131,10 @@ h1 {
     div a.btn-custom {
         margin-bottom: 15px;
     }
+
+    div.albuns div.row img.img-fluid {
+        margin-top: 10px;
+    }
 }
 
 /* small devices */
@@ -95,8 +143,13 @@ h1 {
     h1 {
         font-size: 3em;
     }
+
     div a.btn-custom {
         margin-bottom: 15px;
+    }
+
+    div.albuns div.row img.img-fluid {
+        margin-top: 10px;
     }
 }
 
