@@ -102,6 +102,36 @@ nav.navbar-transparent {
     padding-left: 5em;
 }
 
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+footer .navbar-nav li a {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav li a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+ 
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
@@ -122,18 +152,80 @@ h2 {
     letter-spacing: -0.04em;
 }
 
-/* extra small devices */
-@media (max-width: 575.98px) {
-
+@media (max-width:321px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.8em;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        border: 1px solid orange;
     }
+
     div a.btn-custom {
         margin-bottom: 15px;
+        font-size: 0.8em;
     }
 
     div.albuns div.row img.img-fluid {
         margin-top: 10px;
+    }
+
+    #servicos h2, #recursos h2 {
+        font-size: 1.8em;
+    }
+    
+    #servicos h3, #recursos h3 {
+        font-size: 1.55em;
+    }
+
+    #servicos p, #recursos p {
+        font-size: 0.9em;
+    }
+
+    div.container div.row div.col-md-2 img {
+        margin-bottom: 10px;
+    }
+    
+    div.col-md-2 + div.col-md-2 {
+        margin-top: 15px;
+    }
+
+    div.container div.row div.col-md-2 h4 {
+        margin-bottom: 0px;
+    }
+
+    footer div.row div.col-md-4 img {
+        width: 43.2px;
+    }
+}
+
+/* extra small devices */
+@media (min-width:321.02px) and (max-width: 575.98px) {
+
+    h1 {
+        font-size: 2.2em;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        border: 1px solid red;
+    }
+    div a.btn-custom {
+        margin-bottom: 15px;
+        font-size: 1em;
+    }
+
+    div.albuns div.row img.img-fluid {
+        margin-top: 10px;
+    }
+
+    div.container div.row div.col-md-2 img {
+        margin-bottom: 10px;
+    }
+    
+    div.col-md-2 + div.col-md-2 {
+        margin-top: 15px;
+    }
+
+    div.container div.row div.col-md-2 h4 {
+        margin-bottom: 0px;
     }
 }
 
@@ -142,15 +234,32 @@ h2 {
 
     h1 {
         font-size: 3em;
+        margin-bottom: 25px;
+        border: 1px solid blue;
     }
-
+    
+    
     div a.btn-custom {
         margin-bottom: 15px;
+        font-size: 1.5em;
     }
 
     div.albuns div.row img.img-fluid {
         margin-top: 10px;
     }
+
+    div.container div.row div.col-md-2 img {
+        margin-bottom: 10px;
+    }
+    
+    div.col-md-2 + div.col-md-2 {
+        margin-top: 15px;
+    }
+
+    div.container div.row div.col-md-2 h4 {
+        margin-bottom: 0px;
+    }
+
 }
 
 /*  medium devices */
@@ -159,6 +268,19 @@ h2 {
     h1 {
         font-size: 4em;
     }
+
+    div a.btn-custom {
+        margin-right: 2px;
+        font-size: 1.2em;
+    }
+
+    div.container div.row div.col-md-2 img {
+        width: 110px;
+    }
+
+    footer ul li a img {
+        width: 40px;
+    }
 }
 
 /* large devices */
@@ -166,6 +288,23 @@ h2 {
 
     h1 {
         font-size: 5em;
+    }
+
+    div a.btn-custom {
+        margin-right: 3px;
+        font-size: 1.8em;
+    }
+
+    #servicos h2, #recursos h2 {
+        font-size: 2.2em;
+    }
+    
+    #servicos h3, #recursos h3 {
+        font-size: 1.95em;
+    }
+
+    #servicos p, #recursos p {
+        font-size: 1.1em;
     }
 }
 
