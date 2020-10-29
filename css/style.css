@@ -71,6 +71,11 @@ nav.navbar-transparent {
     color: #000000;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+    background: #f2f2f211;
+}
+
 .caixa {
     padding: 20px 0px;
 }
@@ -156,8 +161,20 @@ h2 {
     h1 {
         font-size: 1.8em;
         margin-bottom: 20px;
-        margin-top: 15px;
-        border: 1px solid orange;
+        margin-top: 15px;  
+    }
+
+    div.carousel-item h1 + a.btn-white {
+        margin-bottom: 70px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+        background: #f2f2f211;
+    }
+
+    div.capa .carousel-control-next .fa-3x, div.capa .carousel-control-prev .fa-3x {
+        font-size: 1.5em;        
     }
 
     div a.btn-custom {
@@ -205,8 +222,26 @@ h2 {
         font-size: 2.2em;
         margin-top: 10px;
         margin-bottom: 25px;
-        border: 1px solid red;
     }
+
+    div.carousel-item + div.carousel-item h1 {
+        font-size: 2.1em;
+        margin-bottom: 28px;
+    }
+
+    div.carousel-item h1 + a.btn-white {
+        margin-bottom: 75px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+        background: #f2f2f211;
+    }
+
+    div.capa .carousel-control-next .fa-3x, div.capa .carousel-control-prev .fa-3x {
+        font-size: 2.3em;        
+    }
+
     div a.btn-custom {
         margin-bottom: 15px;
         font-size: 1em;
@@ -235,7 +270,6 @@ h2 {
     h1 {
         font-size: 3em;
         margin-bottom: 25px;
-        border: 1px solid blue;
     }
     
     
@@ -270,8 +304,8 @@ h2 {
     }
 
     div a.btn-custom {
-        margin-right: 2px;
-        font-size: 1.2em;
+        margin-right: 0.8px;
+        font-size: 1em;
     }
 
     div.container div.row div.col-md-2 img {
@@ -290,9 +324,22 @@ h2 {
         font-size: 5em;
     }
 
+    div.carousel-item + div.carousel-item h1 {
+        margin-bottom: 28px;
+    }
+
+    div.carousel-item + div.carousel-item a.btn-custom {
+        
+    }
+
+    div.carousel-item h1 + a.btn-white {
+        margin-bottom: 75px;
+    }
+
+
     div a.btn-custom {
-        margin-right: 3px;
-        font-size: 1.8em;
+        margin-right: 2px;
+        font-size: 1.7em;
     }
 
     #servicos h2, #recursos h2 {
